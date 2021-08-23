@@ -37,7 +37,7 @@ public class Brick : MonoBehaviour
     {
         onDestroyed.Invoke(PointValue);
         
-        //slight delay to be sure the ball have time to bounce
+        //slight delay to be sure the ball has time to bounce
         Destroy(gameObject, 0.2f);
     }
 }
